@@ -1,5 +1,5 @@
 # Apptitude-QwickScan
-Submission for Apptitude 2020 by Team Behencode @BRO3886 @rithikjain
+>Submission for Apptitude 2020 by Team Behencode @BRO3886 @rithikjain
 
 <div align="center">
 <br>
@@ -83,3 +83,33 @@ flutter run
 [Design- Figma File](https://www.figma.com/file/GnB8hOq9JGvUX5EfHZV8fU/Apptitude?node-id=3%3A5)
 
 [Drive Link for video and app](https://drive.google.com/drive/folders/1aqZCTdJY-sRg3sygGL9eyLCruzt0T50G?usp=sharing)
+
+## Challenges Faced
+
+* We were working for the first time with TFLite and real time object detection
+* Had to figure out the appropriate UI on top of camera feed
+* Laying out widgets on top of native views is difficult in Flutter.
+* Luckily we found a way to do that.
+* As a challenge, we tried implementing this with bloc. Considering the amount of boilerplate code needed for bloc,  I feel great about how quikly I can implement it now.
+
+## Completion Status
+
+Due to the time constraint, we could not complete the following:
+
+* Payment integration with UPI to enable cashless transaction
+* Implementing an inventory of items on the server
+* Deleting items from cart (shit!)
+
+
+## Learning and Key Takeaways
+
+* We can make a backend in Go
+* We can easily implement Bloc for state mangement
+* Bloc is prolly the best solution for state management in fluter
+* Flutter and TFlite is somewhat stable
+* The best way to go ahead with implemting ML is through MLKit (lol)
+* The app is performant, but bloated in size
+
+
+Thanks a lot to [ACM-VIT](https://acmvit.in/) for giving us this opportunity!
+
